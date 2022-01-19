@@ -12,13 +12,17 @@ body{
 .holder{
   display: block;
   margin: 50px auto;
-  width: 1200px;
+  width: 1182px;
   background: #fff;
   border-radius: 16px;
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+  box-shadow: 0px 4px 10px rgb(0 0 0 / 20%);
+  height: 885px;
+  overflow: hidden;
 }
 .image-container{
-  width: 840px;
+  width: 823px;
+  border-radius: 16px 0px 0px 16px;
+  overflow: hidden;
   display: inline-block;
   border-right: 1px solid rgba(0,0,0,0.2);
 }
@@ -30,10 +34,14 @@ body{
   float: right;
   width: 310px;
   padding: 24px;
+  background: rgb(235,246,253);
+  background: linear-gradient(0deg, rgba(235,246,253,0) 0%, rgba(235,246,253,1) 100%);
 }
 .button-container{
-  background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.05) 100%);
+/*  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.05) 100%);*/
+/*  background: rgb(235,246,253);
+  background: linear-gradient(0deg, rgba(235,246,253,1) 0%, rgba(235,246,253,0) 100%);*/
   margin: 0px -24px -24px -24px;
   padding: 30px 24px 16px 24px;
 }
@@ -42,20 +50,21 @@ body{
   overflow:hidden;
 }
 .button{
-  color: #222;
-  font-size: 16px;
-  padding: 16px;
-  border: 1px solid #ccc;
-  display: block;
-  margin-bottom: 16px;
-  border-radius: 100px;
-  cursor: pointer;
-  text-decoration: none;
-  padding-left: 60px;
-  position: relative;
-  top: 0px;
-  background: #fff;
-  transition: all 0.1s ease-in;
+    color: #222;
+    font-size: 16px;
+    padding: 16px;
+    border: 1px solid rgba(0,0,0,0.15);
+    display: block;
+    margin-bottom: 16px;
+    border-radius: 100px;
+    cursor: pointer;
+    text-decoration: none;
+    padding-left: 60px;
+    position: relative;
+    top: 0px;
+    background: #fff;
+    transition: all 0.1s ease-in;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 7%);
 }
 .button img{
   width: 32px;
@@ -68,12 +77,14 @@ body{
   top: -5px;
 }
 .description-area{
-  padding: 12px 20px 1px 20px;
-  border-radius: 8px;
-  background: #EBF6FD;
+  padding: 24px 24px 12px 24px;
+  border-radius: 0px 16px 0px 0px;
+  margin: -24px -24px 1px -24px;
 }
 .description-area h3{
   margin-top: 5px;
+  font-size: 24px;
+  margin-bottom: 15px;
 }
 .step{
   font-size: 15px;
@@ -109,6 +120,8 @@ body{
   /*width:260px;*/
   border-radius: 20px 20px 0px 0px;
   color: black;
+  margin: 0px;
+  padding: 5px 0px 5px 0px;
 }
 .swatchHolder .colorHolder{
   display: block;
