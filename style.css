@@ -1,0 +1,140 @@
+/*@import url("https://codepen.io/MacEvelly/pen/iJGCw.css");*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Rubik:wght@400;700&display=swap');
+
+body{
+  background-image: url('./img/bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}
+.holder{
+  display: block;
+  margin: 50px auto;
+  width: 1200px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+.image-container{
+  width: 840px;
+  display: inline-block;
+  border-right: 1px solid rgba(0,0,0,0.2);
+}
+.image-container svg{
+  cursor:url('img/cursor.svg'), auto;
+}
+.actions-panel{
+  display: inline-block;
+  float: right;
+  width: 310px;
+  padding: 24px;
+}
+.button-container{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.05) 100%);
+  margin: 0px -24px -24px -24px;
+  padding: 30px 24px 16px 24px;
+}
+.held{
+  position:relative;
+  overflow:hidden;
+}
+.button{
+  color: #222;
+  font-size: 16px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  display: block;
+  margin-bottom: 16px;
+  border-radius: 100px;
+  cursor: pointer;
+  text-decoration: none;
+  padding-left: 60px;
+  position: relative;
+  top: 0px;
+  background: #fff;
+  transition: all 0.1s ease-in;
+}
+.button img{
+  width: 32px;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  left: 16px;
+}
+.button:hover{
+  top: -5px;
+}
+.description-area{
+  padding: 12px 20px 1px 20px;
+  border-radius: 8px;
+  background: #EBF6FD;
+}
+.description-area h3{
+  margin-top: 5px;
+}
+.step{
+  font-size: 15px;
+  line-height: 130%;
+  color: #444;
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 20px;
+}
+.step span{
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  height: 10px;
+  width: 10px;
+  background: #6CC0EF;
+  border-radius: 100px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 200%;
+  display: inline-block;
+}
+.swatchHolder{
+  /*position:absolute;
+  bottom:0px;
+  margin:auto;
+  left:0px;
+  right:0px;*/
+  list-style-type:none;
+  text-align:center;
+  display:inline-block;
+  padding: 15px;
+  /*width:260px;*/
+  border-radius: 20px 20px 0px 0px;
+  color: black;
+}
+.swatchHolder .colorHolder{
+  display: block;
+  line-height: 100%;
+  content:'Chosen Color';
+  padding: 10px 0px;
+  font-size: 16px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  display: block;
+  margin-bottom: 16px;
+  border-radius: 100px;
+}
+.swatchHolder li:not(.colorHolder){
+  height:25px;
+  width:25px;
+  margin:5px;
+  display:inline-block;
+  cursor:pointer;
+  border-radius: 100px;
+}
+
+#ActivityDIV svg{
+  width:100%;
+  display:inline-block;
+}
+#ActivityDIV svg path{
+  cursor:pointer;
+}
