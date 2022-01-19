@@ -8,6 +8,7 @@ body{
   background-size: cover;
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
+  margin: 0px;
 }
 .holder{
   display: block;
@@ -150,4 +151,20 @@ body{
 }
 #ActivityDIV svg path{
   cursor:pointer;
+}
+.mob{
+  display: none;
+}
+@media(max-width: 1024px){
+  .holder{
+    display: none;
+  }
+  .mob{
+    display: block;
+    height: 100vh;
+    background-image: url('./img/mob.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+  }
 }
