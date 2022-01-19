@@ -37,8 +37,6 @@
 	    	<img src="./img/download.svg" /> 
 	    	Download image
 	    </a>
-
-	    <a id="downloadnew">Download new</a>
 <!-- 	    <a id="btnDownloadSVG2" class="button gray">
 	    	Download SVG2
 	    </a> -->
@@ -50,9 +48,7 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js'></script>
 <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin.js?r=11'></script><script  src="./script.js"></script>
 	<script type="text/javascript">
-		
-
-		$("#downloadnew").click(function(){
+		$("#btnDownloadSVG").click(function(){
 			var svgData = $("#hbdsupriya")[0].outerHTML;
 			var svgBlob = new Blob([svgData], {type:"image/svg+xml;charset=utf-8"});
 			var svgUrl = URL.createObjectURL(svgBlob);
@@ -63,7 +59,6 @@
 			downloadLink.click();
 			document.body.removeChild(downloadLink);
 		});
-
 	</script>
 </body>
 </html>

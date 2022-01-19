@@ -137,5 +137,5 @@ $('#ActivityDIV'   ).makeSVGcolor('https://raw.githubusercontent.com/anoopsethu/
 //$('#ActivityDIV'   ).makeSVGcolor('https://assets.codepen.io/40041/crest.svg')
 $('#btnRandom'     ).btnRandom()
 $('#btnClear'      ).btnClear()
-$('#btnDownloadSVG').btnDownload()
+// $('#btnDownloadSVG').btnDownload()
 $('#btnDownloadSVG2').btnDownload2()
