@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Rubik:wght@400;700&display=swap');
 
 body{
+  background: #A6436C;
   background-image: url('./img/bg.png');
   background-repeat: no-repeat;
   background-position: center;
