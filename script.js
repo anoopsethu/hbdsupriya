@@ -128,7 +128,7 @@
 // 
 // https://s3-us-west-2.amazonaws.com/s.cdpn.io/40041/cheshire.svg
 // $('#ActivityDIV'   ).makeSVGcolor('https://s3-us-west-2.amazonaws.com/s.cdpn.io/40041/cheshire.svg')
-$('#ActivityDIV'   ).makeSVGcolor('https://raw.githubusercontent.com/anoopsethu/hellopereira/main/sketch.svg')
+$('#ActivityDIV'   ).makeSVGcolor('https://raw.githubusercontent.com/anoopsethu/hbdsupriya/main/sketch.svg')
 //$('#ActivityDIV'   ).makeSVGcolor('https://assets.codepen.io/40041/crest.svg')
 $('#btnRandom'     ).btnRandom()
 $('#btnClear'      ).btnClear()
